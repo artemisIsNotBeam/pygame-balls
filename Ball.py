@@ -1,5 +1,5 @@
 import pygame, math
 
-class Ball:
-	def __init__(self):
+class Ball (pygame.sprite.Sprite):
+	def __init__(self,pos,img_path):
 		
